@@ -11,7 +11,7 @@ const image = { uri: "https://legacy.reactjs.org/logo-og.png" };
 const HomeScreen = ({ navigation }) => {
   return (
     <Button
-      title="Go to Jane's profile"
+      title="Go to Jane's prodfile"
       onPress={() => navigation.navigate("Profile", { name: "Jane" })}
     />
   );
